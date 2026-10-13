@@ -54,3 +54,4 @@ a { color: var(--brand); }
 .links { columns: 2 220px; padding-left: 18px; }
 .sources li { margin-bottom: 6px; color: var(--muted); font-size: 15px; }
 .foot { padding: 32px 0 48px; color: var(--muted); font-size: 14px; }
+@media (max-width: 560px) { .bar .button { display: none; } }
